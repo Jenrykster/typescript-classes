@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulos</title>
+  </head>
+  <body>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script>
+      SystemJS.config({
+        baseUrl: '/6-modulos/',
+        packages: {
+          '/6-modulos/': {
+            defaultJSExtension: true,
+          },
+        },
+      });
+
+      SystemJS.import('/6-modulos/modulos.js');
+    </script>
+    <!-- <script src="modulos.js"></script> -->
+  </body>
+</html>

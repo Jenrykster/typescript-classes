@@ -1,0 +1,14 @@
+{
+  "name": "TYPESCRIPT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jenrykster/typescript-classes.git",
+  "author": "João Henrique <joaoenrique.san@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "systemjs": "0.21.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12"
+  }
+}
