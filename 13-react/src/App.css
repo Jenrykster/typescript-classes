@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-weight: 900;
+  font-size: 3rem;
+  background-color: black;
+  color: snow;
+}
